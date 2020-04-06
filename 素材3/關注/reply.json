@@ -1,0 +1,23 @@
+[
+  {
+  "type": "text",
+  "text": "您好！您聽過 3 門問題嗎？不想與百萬獎金錯過嗎？那就趕快來了解吧！"
+},
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "我準備好了",
+        "data": "menu=rich_menu_0"
+      }
+    ],
+    "thumbnailImageUrl": "https://imgur.com/ezafb43.jpg",
+    "title": "3 門的世界，3 Doors' World",
+    "text": "準備好了解 3 門問題了嗎？"
+  }
+}
+]

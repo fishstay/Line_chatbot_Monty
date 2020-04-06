@@ -1,0 +1,60 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": false,
+  "name": "rich_menu_0",
+  "chatBarText": "主選單",
+  "areas": [
+    {
+      "bounds": {
+        "x": 143,
+        "y": 106,
+        "width": 1161,
+        "height": 745
+      },
+      "action": {
+        "type": "message",
+        "text": "我想了解 3 門問題的情境。"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1311,
+        "y": 106,
+        "width": 1086,
+        "height": 745
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://www.youtube.com/watch?v=4Lb-6rxZxx0"
+      }
+    },
+    {
+      "bounds": {
+        "x": 143,
+        "y": 852,
+        "width": 1161,
+        "height": 770
+      },
+      "action": {
+        "type": "message",
+        "text": "我想直觀地了解問題的答案。"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1304,
+        "y": 852,
+        "width": 1093,
+        "height": 770
+      },
+      "action": {
+        "type": "postback",
+        "text": "我想要親自玩玩看！",
+        "data": "menu=rich_menu_1"
+      }
+    }
+  ]
+}
