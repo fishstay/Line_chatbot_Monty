@@ -1,0 +1,87 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "rich_menu_1_1",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 257,
+        "y": 197,
+        "width": 461,
+        "height": 850
+      },
+      "action": {
+        "type": "postback",
+        "text": "我選擇左邊的門。",
+        "data": "menu=rich_menu_2"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1017,
+        "y": 203,
+        "width": 455,
+        "height": 844
+      },
+      "action": {
+        "type": "postback",
+        "text": "我選擇中間的門。",
+        "data": "menu=rich_menu_3"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1748,
+        "y": 215,
+        "width": 454,
+        "height": 844
+      },
+      "action": {
+        "type": "postback",
+        "text": "我選擇右邊的門。",
+        "data": "menu=rich_menu_5"
+      }
+    },
+    {
+      "bounds": {
+        "x": 221,
+        "y": 1296,
+        "width": 551,
+        "height": 275
+      },
+      "action": {
+        "type": "message",
+        "text": "我想要親自玩玩看！"
+      }
+    },
+    {
+      "bounds": {
+        "x": 988,
+        "y": 1296,
+        "width": 550,
+        "height": 269
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "menu=rich_menu_0"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1724,
+        "y": 1296,
+        "width": 562,
+        "height": 257
+      },
+      "action": {
+        "type": "message",
+        "text": "我想要知道目前的勝率！"
+      }
+    }
+  ]
+}
